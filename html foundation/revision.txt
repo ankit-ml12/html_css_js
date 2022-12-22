@@ -1,0 +1,7 @@
+first we declare <!doctype html>
+then html and then head and body inside it
+
+Head if for icon, page head, css file
+learn about h1 heading to h6
+
+
