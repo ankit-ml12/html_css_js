@@ -4,4 +4,37 @@ then html and then head and body inside it
 Head if for icon, page head, css file
 learn about h1 heading to h6
 
+learn about use of paragraph tag and comment tag  <!--  -->
+
+use of <b> inside paragraph
+we try to avoid use of <b>on the place of it we use strong the reason behind is <b> does not have any symentic meaning
+
+same thing with <i> tag we use <em> on the place of <i> em stand for emphasis
+
+learn how to use ordered list and list item
+learn how to use unordered list and list item
+
+learn how to add image using <img>
+learn about attibute and how to use 
+ex:- height, width, src, alt
+
+<html lang="en">
+<meta charset="UTF-8" />
+add this line
+
+use of anchor links
+ <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs</a>
+target= "_blank" for open that link in another tab
+
+giving structure to our page using 
+nav, header, article, 
+
+copy right symbol
+
+symentic element:- symentic means some element with some name have some meanign attach to them. so will not think about the what is their work but we thick about their word meaning 
+because of this reason we also avoid use of div instead we use nav.
+
+We use element which give some meaning to our content.
+it is good for seo, accessibility
+ 
 
