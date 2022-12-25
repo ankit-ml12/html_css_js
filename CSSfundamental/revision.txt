@@ -1,0 +1,30 @@
+css is all about styling the content
+cascading style sheet
+
+learn about inline css
+internal css
+exeternal css
+  <link rel="stylesheet" href="./style.css" />
+
+
+style text:- 
+/* this is called external css */
+{ font-size: 26px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.5;}
+
+combining selector
+parent child grandchild{
+
+}
+
+========================
+.class and #id
+id is uniq not allowed twice
+class is allowed
+
+we avoid using id
+=================
