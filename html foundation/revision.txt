@@ -1,7 +1,7 @@
 first we declare <!doctype html>
 then html and then head and body inside it
 
-Head if for icon, page head, css file
+Head if for icon, page heading, css file import
 learn about h1 heading to h6
 
 learn about use of paragraph tag and comment tag  <!--  -->
@@ -30,6 +30,8 @@ giving structure to our page using
 nav, header, article, 
 
 copy right symbol
+<footer>Copyright &copy; 2022</footer>
+
 
 symentic element:- symentic means some element with some name have some meanign attach to them. so will not think about the what is their work but we thick about their word meaning 
 because of this reason we also avoid use of div instead we use nav.

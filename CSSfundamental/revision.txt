@@ -78,3 +78,19 @@ a:active {
 }
 
 ============================
+Multiple css rule on excect same element
+conflict 1:- 
+priority:- 
+Declaration mark with ! character ==>  inline style ==> ID ==>  class  or pseudo class ==> elemment selector ==> universe selector
+in case of multiple similar id or class or anything then last one is applied
+
+conflict 2:-
+in which child element inherited value from parent element 
+but prioity is given to property of child element
+
+==================================================
+  CSS BOX MODEL:-
+  content, border, padding, margine, fill area
+
+  element width:- left padding + left border + width + right border + right pedding
+  element height :- top padding + top border + height + bottom border + bottom border 
