@@ -6,6 +6,12 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
+}
+h1,
+h2,
+h3 {
+  color: #1098ad;
 }
 h1 {
   font-size: 26px;
@@ -51,4 +57,48 @@ li {
 }
 .related {
   list-style: none;
+}
+.main-header {
+  background-color: #f7f7f7;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+/* first child element of its parent */
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(even) {
+  color: red;
+}
+/* article p:last-child {
+  color: red;
+} */
+
+/* styling link */
+/* using below code we only target code which have href tag */
+/* LVHA PRINCIPLE */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  /* color: #777; */
+  color: #1098ad;
+}
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
 }

@@ -28,3 +28,53 @@ class is allowed
 
 we avoid using id
 =================
+Work with color
+RGB MODEL
+hexadecimal notation
+background-color: #f7f7f7;
+border-top: 5px solid #1098ad;
+border: 5px solid #1098ad;
+
+=================
+Pseudo class 
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(even) {
+  color: red;
+}
+article p:last-child {
+  color: red;
+}
+here it means if p is last child of article
+if it is something different then code doesn't work on it
+
+===========================
+styling link :- 
+
+/* styling link */
+/* using below code we only target code which have href tag */
+/* LVHA PRINCIPLE */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  /* color: #777; */
+  color: #1098ad;
+}
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+============================
