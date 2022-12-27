@@ -94,3 +94,24 @@ but prioity is given to property of child element
 
   element width:- left padding + left border + width + right border + right pedding
   element height :- top padding + top border + height + bottom border + bottom border 
+
+
+ padding: 20px 40px;
+ first for top and bottom
+and second for left and right.
+ padding-bottom, top, left, right 
+ margine-bottom, top, left, right 
+
+ margin of two element is never get added they only larger is visible
+
+so mainly we try to add margin on one side either bottom on top of all element
+ =======================
+ adding dimention
+  height: 80px; auto , 100% of parent
+ width: 100px; auto 
+
+ =================================
+
+
+
+
