@@ -111,6 +111,29 @@ so mainly we try to add margin on one side either bottom on top of all element
  width: 100px; auto 
 
  =================================
+techniq to centering our page 
+for that we have to put all content in container
+.container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+   or 
+  margin  0 auto ;
+}
+
+=================================
+css boxes:- 
+block level boxes {100 % width of parent}
+inline element {take only needed space, heigh, width has no affect , and margin and padding apply only on left and right side}
+in case of padding space is created but the element not move from it initial position it stay on the same place
+
+
+display : bloack to change the type;
+
+inlineblock box:- this is inline from the outside and block from the inside
+display : inline block;
+imges are inline block boxes, they are inline but behave like inline block 
+=====================================
 
 
 
