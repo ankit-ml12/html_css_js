@@ -134,7 +134,53 @@ inlineblock box:- this is inline from the outside and block from the inside
 display : inline block;
 imges are inline block boxes, they are inline but behave like inline block 
 =====================================
+Normal flow and :- default postion:- relative
 
+Absolute positioning:- 
+postion Absolute
+it see the first parent element whose position is set to be relative .
 
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
 
+======================================
+
+Pseudo elements
+
+it is like first line of paragraph , first letter of line 
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+/* is it used to select sibling */
+h3 + p::first-line {
+  color: red;
+  font-weight: bold;
+}
+/* after and before element */
+h2::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 5px;
+  position: absolute;
+  top: 0;
+  right: -10px;
+}
+===============================
+Do not memorise 
+read documentation 
+
+debugging:-
+use html validator tool 
+diff checker
 
