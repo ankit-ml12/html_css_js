@@ -1,0 +1,45 @@
+layout:- content is arrange in some way 
+building a layout means arranging content in web page in some specific way 
+page layout and component layout
+
+3way to build layout:- 
+Float :- older 
+Flexbox :- modern (better for one D component or row based component)
+Css Grid :- complete 2d 
+
+
+=================================================================
+copy older code inside here to understand this propety
+
+
+once we declare some class fload then the content after it start floating around it.
+
+/*  Floats */
+.author-img {
+  float: left;
+  margin: 10px 10px;
+}
+.author {
+  padding-left: 20px;
+  padding-top: 10px;
+  float: left;
+}
+
+h1 {
+  float: left;
+}
+nav {
+  float: right;
+}
+
+/* when all children of an parent are in float propety then it height is collapsed or become 0 */
+
+text and inline element wrape around the float element 
+
+to solve collapsing issue we use 
+.clear{
+  clear: both; 
+}
+go through 4 video again 
+====================
+
