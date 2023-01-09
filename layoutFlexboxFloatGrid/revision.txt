@@ -12,7 +12,7 @@ Css Grid :- complete 2d
 copy older code inside here to understand this propety
 
 
-once we declare some class fload then the content after it start floating around it.
+once we declare some class float then the content after it start floating around it.
 
 /*  Floats */
 .author-img {
@@ -37,9 +37,23 @@ nav {
 text and inline element wrape around the float element 
 
 to solve collapsing issue we use 
-.clear{
+.clear{ 
   clear: both; 
+  clear: left;
+  clear: right;
+  // first clear the empty div and then give clear class 
+  //this is how we clear the float
 }
-go through 4 video again 
+we don't want to fill our html page with so we don't use this practice we use different tachniq.
+
+
+we give class = clearfix
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+=====================
+
 ====================
 
