@@ -43,7 +43,15 @@
         justify-content: space-between;
       }
       /* FLEXBOX */
-
+      .el {
+        /*
+        Default
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto; */
+        flex-basis: 100px;
+        /* we change flex value from default value  */
+      }
       .el--1 {
         align-self: flex-start;
       }
@@ -61,10 +69,10 @@
       <div class="el el--2">and</div>
       <div class="el el--3">CSS</div>
       <div class="el el--4">are</div>
-      <div class="el el--5">amazing</div>
+      <!-- <div class="el el--5">amazin g</div> -->
       <div class="el el--6">languages</div>
       <div class="el el--7">to</div>
-      <div class="el el--8">learn</div>
+      <!-- <div class="el el--8">learn</div> -->
     </div>
   </body>
 </html>
