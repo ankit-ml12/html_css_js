@@ -55,5 +55,56 @@ we give class = clearfix
 }
 =====================
 
+box sizing : border box;
+it allow us to make height and width equal to the actual height and width we provide to elmenet.
+it does not add the mergin and padding into cosideration.
+
+it change the height and width of the element and adjust it with the padding and margine.
+
+
 ====================
 
+flex-box:-
+display: flex;
+
+if we give flex to parent class and all its child become verticle from horizontal.
+All child are called flex item.
+vertically and horizontally they take equal space as much as they require. 
+
+but if i take height = 20px for even singal item then all item take equal height of 20px
+
+
+  .container {
+        display: flex;
+        align-items: center;//for vertical align
+        justify-content: center;// for horizontal align 
+        justify-content: space-between;
+    }
+
+flexbox terminology;- 
+Flex container
+Flex items
+main axis ==>>
+cross axis ^
+ ==================
+ property of flex container:- 
+ gap: 0; create space b/w items 
+ justify content; align item along main axis
+ align item ; align item along cross axis 
+flex direction; direction along main axis
+flex wrap;
+align-content;
+===================
+property of flex item:-
+align self
+flex grow
+flex shrink
+flex basis
+flex 
+
+orderd: -1 to take item first position
+
+
+
+
+  
