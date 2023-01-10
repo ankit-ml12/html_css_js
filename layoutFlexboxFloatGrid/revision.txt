@@ -105,6 +105,42 @@ flex
 orderd: -1 to take item first position
 
 
+====================================
+css grid:-
+  display: grid;
+ grid-template-columns: 200px 200px 100px 100px;
+grid-template-rows: 300px 200px;
+   /* gap: 20px; */
+  column-gap: 30px;
+ row-gap: 60px;
+
+=====================================
+
+css grid terminology:-
+column axis ^
+row axis -->
+grid container
+grid items 
+grid lines lines between grid items 
+
+====================================
+ grid container property:- 
+ grid-template-row <track size>
+ grid-template-column <track size>
+row-gap
+column-gap
+justified-item;
+align-item;
+justified contenta
+align-content
+=====================================
+grid item property:-
+grid column
+grid raw
+justified self
+align self
+================================
+
 
 
   
