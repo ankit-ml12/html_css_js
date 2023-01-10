@@ -141,6 +141,17 @@ justified self
 align self
 ================================
 
+we use fr (fraction instead of px in css grid property)
+fr will try to take all the space which is empty
+if we use auto on place of fr it take space as much as necessary for its content 
 
+grid-template-column: 1fr 1fr 1fr 1fr; is equal to
+grid-template-column: repeat(4, 1fr);  
 
-  
+============================
+if you want to adjust the item according to row and column 
+.el--2 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+      }
+      
