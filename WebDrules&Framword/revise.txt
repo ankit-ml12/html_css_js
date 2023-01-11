@@ -10,3 +10,20 @@ we use open color or tailwind css to select color, flat ui color
 we check contrast ratio and maintain a suatable to any one can read easily
 ==================================
 
+icons:-
+use phosphor icon, ionicon icon58 
+to color icon we use stoke and fill property
+
+=================================
+shadow:- 
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+use mdn docs for more infor 
+we can also use text shadow
+================================
+border radius
+ border-radiun: 12px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-radius : 25%;
+
+  =================================
