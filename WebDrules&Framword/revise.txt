@@ -1,0 +1,12 @@
+start with typography:- 
+https://fonts.google.com/
+
+add required text and then copy pest the link file in our html folder just before css file 
+=================================
+
+color:- 
+we use open color or tailwind css to select color, flat ui color 
+
+we check contrast ratio and maintain a suatable to any one can read easily
+==================================
+
