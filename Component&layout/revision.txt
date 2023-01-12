@@ -12,3 +12,7 @@ for table we use different html formate like this
 <tr></tr>
 <tr></tr></tbody>
 <table>
+=================================
+learn about VH and vW
+  background-image: url(./hero.jpg);
+        background-size: cover;
