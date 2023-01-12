@@ -1,0 +1,14 @@
+absolute position remove the grid or flex element outside of the main body.
+to position that element we use the absolute position and translate or transform property.
+
+you can see carousel for more detail
+======================
+
+for table we use different html formate like this
+<table>
+<thead>
+<th></th></thead>
+<tbody>
+<tr></tr>
+<tr></tr></tbody>
+<table>
