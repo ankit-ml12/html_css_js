@@ -1,0 +1,18 @@
+js is 
+high level  :- don't worry about complext stuff like memory management
+objectoriented  :- based object 
+multiparadigm   :- we can use different style of programming
+propgramming language :- instruct computer to do things 
+ ==================================
+ES 5 :- echma script
+ES6 FROM 2016 
+=====================================
+WE NORMALLY PUT SCRIPT FILE AT THE END OF OUT BODY 
+
+variable:- is a box where we store value
+in js we write vaiable in camel case notation because it is prefer 
+
+Rule :- 
+1 never start with number
+2  name can only contain letter, number , _ ans $ sign
+3 don't use reserve keyword 
