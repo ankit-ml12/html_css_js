@@ -1,0 +1,14 @@
+"125" + 24 = "12524"
+strign into number
+use let num = (Number("125"));
+
+
+if we try to convert a alphabate string to Number then it give
+Not a number error :- NaN 
+
+and to convert into sting we use Strign() operation
+
+"23" -"10" - 3 = 10
+"23"*"2"= 46  //same with divide 
+
+2+3+4+'5' = 95 

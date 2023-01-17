@@ -1,0 +1,27 @@
+in js every value is either object or premitive {non object}
+
+There are 7 types of premitive data type:-
+
+number (float is included in it)
+string sequence of char 
+boolen 
+undefine :- value taken by variable which is not define yet 
+null :- empty value 
+symbol :- value which is uniq and can not be change 
+BigInt :- large integer then the no can hold 
+
+
+===
+js is dynamically define typing 
+any data type can be assign to var .
+
+================comment===============
+
+/* */ or //
+
+=======================================
+console.log(typeof true) // boolen 
+console.log(typeof null); // object {it is bug}
+
+========================================
+
