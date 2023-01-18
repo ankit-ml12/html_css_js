@@ -27,3 +27,5 @@ switch (ml) {
 // ternary operator
 
 ans >= 10 ? console.log("hello") : console.log("false");
+
+//continue and break statement
