@@ -11,3 +11,4 @@ document.querySelector("messege").textContent;
 // structure representaion of html content . allow us to select html element and style and manupulate them
 
 // Dom is not a part of javascript dom and dommethode are the part of web api that we use using js language
+document.querySelector("messege").value; // provide us the information related to the  input form
