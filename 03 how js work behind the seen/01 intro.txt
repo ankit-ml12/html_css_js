@@ -1,0 +1,33 @@
+javascript is a 
+
+high level :- In low level developer has to manage resources manually. but in case of high level everything happen automatically .(pythone, js);
+disadvantage of it program is not fast and efficient as low level language (c) 
+
+garbage collected :- algoritham inside js which automatically remove the unused memory. we don't need to remove 
+
+interpreted / just in time compiled :- convert machine code to compile
+====================
+multiparadigm:-
+
+Paradigm :- 
+1 procedural programming :-  just organising the code in very linear way with some function in between .
+2. oops
+3. functional programming
+
+
+javascript does all of this 
+====================
+prototype based  :-first everything in js is object . we use allready build prototype ex arr.push() methode 
+====================
+first class function :- function are treated as just as regular variable , so we can pass function into another function and we can even return the function .
+
+=====================
+dynamic :- string to boolean, int, or anything
+
+=====================
+
+letter:- 
+
+single threded 
+non blocking even loop concurrency model 
+:- we need this model because js is single threaded and we want to handel multiple task with the help of js 
