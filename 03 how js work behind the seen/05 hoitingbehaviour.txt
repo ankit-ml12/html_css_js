@@ -9,3 +9,7 @@ let and const variable           ||    ✅✅       ||   uninitlise(Temporal dea
 function expression and arrows   ||    depend on the how they created with which vairable let, const, or var 
 
 ============================================================================================================
+
+Temporal dead zone start from starting of the code and is upto where the variable is intilize
+
+object literal is not blocks. all the variable inside object you can access only with the help of .(dot) methode
