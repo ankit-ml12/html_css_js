@@ -1,0 +1,5 @@
+learn from namaste js.
+Every js code have only one global level execution context.
+
+
+Scope chain :- basically consist of reference to variable that are located outside of the current function. 
