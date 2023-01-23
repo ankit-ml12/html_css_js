@@ -1,0 +1,18 @@
+global score:-
+ outside of any function bloack
+ variable declear inside global are accessible any where 
+
+ function scope:- 
+ are inside any function 
+ variable accessible only inside the function
+ also called local space 
+all the variable with var keyword are function scope they don't follow block scope
+ function are also function scope (without strict mode )
+
+
+ block scope:-
+ any thing inside curly breaces 
+ variable are accessible only inside block 
+ this only apply to let and const 
+ function are also block scope (in strict mode )
+

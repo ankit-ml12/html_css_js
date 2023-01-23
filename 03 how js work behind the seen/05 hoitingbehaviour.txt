@@ -1,0 +1,11 @@
+
+
+hoisitng with different type of :-
+                                 || hoisted        ||       initial value    ||      scope 
+=================================||================||========================||=========================
+function declaration             ||    ✅✅       ||  Actual function       || {(block)in strick} function
+var variable                     ||    ✅✅       ||  undefined             || function
+let and const variable           ||    ✅✅       ||   uninitlise(Temporal dead)        || block 
+function expression and arrows   ||    depend on the how they created with which vairable let, const, or var 
+
+============================================================================================================
