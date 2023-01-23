@@ -1,0 +1,30 @@
+Js engile :- it execute js code 
+ex:- V8 (powered node and google) 
+
+Every js engile is consist of two thing one is heap and call stack. 
+call stack where our code execute using executioin contest.
+heap is unstructure memory pool where object are stored
+
+
+===================how it work===========================
+Compilation :- 
+
+Source code  -----compilation --> Machine code ----- execution------>program running  
+
+interpretation :- 
+Source code --------------- line by line---------------------->program line
+
+========================================================
+
+JS is  interpretation based language but problem with interpretation based language is they are not efficient.
+But modern js use both interpreter as well as compilation called just in time compiled.
+
+=======================================================
+What is javascript runtime :-
+we can consider it as a big box containing all the things required to use javascript.
+Heart of javascript runtime is js engine.
+web api is also part of js runtime.
+because runtime is like a box which contain all the js related stuff that we need, and web api and it also contain a callback queue.
+
+queue:- contain all the callback function which are ready to execute.
+webapi:- not part of js engine provided by brwoser attent to window object when js engine run.
