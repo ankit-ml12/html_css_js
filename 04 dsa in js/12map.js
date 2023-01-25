@@ -23,3 +23,25 @@ console.log(myMap.has("pho")); //false
 ("to delete we use .delete() methode");
 ("to find size we use myMap.size with parenthesis");
 ("to clear whole map we use .clear() methode");
+myMap.clear();
+// can we use obj or array as a key
+//not like this way
+myMap.set([1, 2], "arr in inserted");
+console.log(myMap);
+// Map(1) {
+//   [ 1, 2 ] => 'arr in inserted'
+// }
+console.log(myMap.has([1, 2])); // false
+
+("the reason is both the arr [1,2] are store in different place so both are different");
+
+//yes like this way
+
+const arr3 = [3, 4];
+myMap.set(arr3, "arr in inserted");
+console.log(myMap);
+// Map(2)
+// { [ 1, 2 ] => 'arr in inserted',
+// [ 3, 4 ] => 'arr in inserted' }
+
+console.log(myMap.has(arr3)); // true
