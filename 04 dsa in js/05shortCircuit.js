@@ -18,3 +18,9 @@ console.log(undefined || 0 || "" || "hello" || 23 || null);
 console.log(0 && "jonas"); //0
 console.log("jonas" && 0); //0
 console.log("hello" && 23 && "" && undefined && 0 && null); //0
+
+// we can use like them also
+let ankit = 10;
+ankit ||= true;
+ankit &&= true;
+ankit ??= true;
