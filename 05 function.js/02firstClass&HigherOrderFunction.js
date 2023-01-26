@@ -26,3 +26,5 @@ let ankit = function () {
   };
 };
 console.log(ankit()(15, 24));
+
+//learn next lecture letter of hgiher ordere and local function related to callback
