@@ -7,3 +7,7 @@ insertAdjacentHTML(position, text);
 "beforebegin", "afterbegin", "beforeend", "afterend";
 
 //innerhtml is contain html code also but textcontent contain only text of html
+
+// when we click on the button js refresh the page
+//to prevern this refresh we use e.preventDefault()
+//wher e is the even of  the event listner funcition
