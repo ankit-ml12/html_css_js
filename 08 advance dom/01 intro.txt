@@ -1,0 +1,56 @@
+weheever there is # in hyperlink and when you click on that element it move you page at the top.
+to prevent that we use e.prevent.default() methode
+
+
+===
+everything go in the dom even if it is comment 
+
+===
+to select whole page we don't need to select any type of query selector we can use them directlly
+
+1. document.documentElemenet 
+2. document.head
+3. document.body
+
+
+// query selector and queryselectorAll allways return all its element in nodelist form 
+
+
+========other element ============
+
+document.getElementById("btn");
+document.getElementsByTagName("button");
+//return the html collection
+//html collection is live changes it change when element change
+//which is not the case with nodelist
+
+document.getElementsByClassName("hel");
+//also return the html collection
+
+//creating and inserting html element
+// .insertAdjacentHtml
+
+document.createElement("div"); //creating element by div tag
+
+//another way
+//first creat an obje
+const messege = document.createElement("div");
+//to add class in dom object
+messege.classList.add("add-class");
+//set content
+messege.innerHTML = `hi ankit hello how  are you",
+<button class="btn">Try Now</button>`;
+
+//now to add this element
+header.prepend(messege);
+// add obj before header
+header.append(messege);
+//add obj after header
+
+//if we use two function like this then only last one will work
+//because messege is live object it cannot able to stay at two location
+
+// if you want to make it at two place  use this
+header.append(messege.cloneNode(true));
+
+// now we are able to use event listner on the class we added in innerHTML
