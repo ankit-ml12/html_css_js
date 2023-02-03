@@ -47,6 +47,10 @@ header.prepend(messege);
 header.append(messege);
 //add obj after header
 
+we can also use header.before(message) //add before header element 
+we can also use header.after(message)  // add after header element 
+
+
 //if we use two function like this then only last one will work
 //because messege is live object it cannot able to stay at two location
 
@@ -54,3 +58,26 @@ header.append(messege);
 header.append(messege.cloneNode(true));
 
 // now we are able to use event listner on the class we added in innerHTML
+
+
+///////////////////////////////////////////////////////////////////////////
+for better understanding read the following example
+
+// selecting
+const header = document.querySelector("header");
+// creating and inserting element
+
+const message = document.createElement("div");
+message.classList.add("cookie-message");
+
+message.innerHTML = `We use cookie for better functionally and Analytics. <button class="btn btn--close-cookie">Got it!</button>`;
+
+header.append(message);
+
+//delete or remove the element
+document
+  .querySelector(".btn--close-cookie")
+  .addEventListener("click", function () {
+    message.remove();
+  });
+
