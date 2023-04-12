@@ -10,9 +10,9 @@ let ans = acc.owner
 
 console.log(ans); // avryd
 
-// we can use methode in chain it reduces out time and efforts
+// we can use method in chain it reduces out time and efforts
 
 //disadvantage of chaining
 
-//it can cause performance issue if the size of array is huge
-//chain methode create new array for each methode
+//it can cause performance issue if the size of array is to large
+//chain method create new array for each method
