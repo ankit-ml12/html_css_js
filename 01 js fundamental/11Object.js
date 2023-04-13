@@ -39,4 +39,4 @@ ankit["height"] = 5.5;
 console.log(ankit);
 
 // ==========================================================================
-("Object Methode ");
+("Object Method ");
