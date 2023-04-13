@@ -13,16 +13,16 @@ const ankit = {
   },
 };
 // address is object and it has 4 property
-// there are manu way to create an object but creating with currly breces is the easiest one
+// there are many way to create an object but creating with curly breces is the easiest one
 // this methode of creating an object is called
-("Object literal Suntex");
+("Object literal syntex");
 
 `similar to array we use object to group together different variable that really belongs to together`;
-("but the main differece is beteween object and array  In object the order of present value inside it does not matter when we retrieve them  but in array position of element is matter ");
+("but the main differece is between object and array  In object the order of present value inside it does not matter when we retrieve them  but in array position of element is matter ");
 
 // ======================================================================================================
 
-("dont and bracket notation ");
+("dot and bracket notation ");
 
 console.log(ankit.firstName);
 console.log(ankit.age);
@@ -32,7 +32,7 @@ console.log(ankit["age"]); //giving key value is string is necessary
 let ml = "age";
 // we can not do ankit.ml but can ankit[ml]
 
-// inset element using . and [] noration
+// insert element using . and [] noration
 
 ankit.weight = 40;
 ankit["height"] = 5.5;
