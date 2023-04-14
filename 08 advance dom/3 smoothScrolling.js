@@ -29,14 +29,14 @@ btnScrollTo.addEventListener("click", function (e) {
   //   s1coords.left + window.pageXOffset,
   //   s1coords.top + window.pageYOffset
   // );
-  //scorlling is not smooth of above methode so we use this method
+  //scorlling is not smooth of above method so we use this method
   window.scrollTo({
     left: s1coords.left + window.pageXOffset,
     top: s1coords.top + window.pageYOffset,
     behavior: "smooth",
   });
 
-  //but there is even better methode
-  //select the section and apply scrollTo methode on it
+  //but there is even better method
+  //select the section and apply scrollTo method on it
   section1.scrollIntoView({ behavior: "smooth" });
 });
