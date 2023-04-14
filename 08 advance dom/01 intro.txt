@@ -1,4 +1,4 @@
-weheever there is # in hyperlink and when you click on that element it move you page at the top.
+whenever there is # in hyperlink and when you click on that element it move you page at the top.
 to prevent that we use e.prevent.default() methode
 
 
