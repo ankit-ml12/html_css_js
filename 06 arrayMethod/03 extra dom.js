@@ -10,4 +10,4 @@ insertAdjacentHTML(position, text);
 
 // when we click on the button js refresh the page
 //to prevern this refresh we use e.preventDefault()
-//wher e is the even of  the event listner funcition
+//where is the even of  the event listner funcition
