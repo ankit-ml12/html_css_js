@@ -1,4 +1,4 @@
-//map and filter methode create a new array for there operation
+//map and filter method create a new array for there operation
 //reduce reduces the element into single element
 
 ///  map craete a array of same size with applied operation
@@ -16,7 +16,7 @@ let ans = arr.map(function (ele, i) {
 
 console.log(ans); //[ 20, 40, 60, 50, 30, 10 ]
 
-//we can use arrow function for map methode
+//we can use arrow function for map method
 let ans2 = arr.map((ele) => 5 * ele);
 console.log(ans2); //[ 50, 100, 150, 125, 75, 25 ]
 // map also have access of three element element index and wholearray
