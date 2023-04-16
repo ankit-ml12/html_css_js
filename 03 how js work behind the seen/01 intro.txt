@@ -17,7 +17,7 @@ Paradigm :-
 
 javascript does all of this 
 ====================
-prototype based  :-first everything in js is object . we use allready build prototype ex arr.push() methode 
+prototype based  :-first everything in js is object . we use allready build prototype ex arr.push() method
 ====================
 first class function :- function are treated as just as regular variable , so we can pass function into another function and we can even return the function .
 
