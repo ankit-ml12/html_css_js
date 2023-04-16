@@ -12,4 +12,4 @@ function expression and arrows   ||    depend on the how they created with which
 
 Temporal dead zone start from starting of the code and is upto where the variable is intilize
 
-object literal is not blocks. all the variable inside object you can access only with the help of .(dot) methode
+object literal is not blocks. all the variable inside object you can access only with the help of .(dot) method
