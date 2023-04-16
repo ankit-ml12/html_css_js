@@ -1,5 +1,5 @@
 global score:-
- outside of any function bloack
+ outside of any function block
  variable declear inside global are accessible any where 
 
  function scope:- 
