@@ -7,7 +7,7 @@ let arr = [
   [[9, 10], 11, 12],
 ];
 
-//flat methode
+//flat method
 console.log(arr.flat().flat().flat());
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 console.log(arr.flat());
@@ -17,5 +17,5 @@ console.log(arr.flat());
 console.log(arr.flat(3));
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
-//flatMap methode
+//flatMap method
 //we also have flatMap methde which work on the arr or obj which first use map and then create
