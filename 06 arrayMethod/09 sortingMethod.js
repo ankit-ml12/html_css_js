@@ -1,5 +1,5 @@
 // sort method
-// this methode actually mutate the original array
+// this method actually mutate the original array
 
 //strings
 let nameList = ["darsh", "yash", "ankit", "ravi", "yashu"];
