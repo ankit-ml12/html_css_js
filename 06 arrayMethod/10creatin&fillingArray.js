@@ -18,7 +18,7 @@ console.log(arr4); //[ <2 empty items>, 2, 2, 2, <2 empty items> ]
 
 // fill methode can be applicable on normal array
 
-//anothe from methode
+//anothe from method
 
 const y = Array.from({ length: 7 }, () => 1);
 console.log(y); //[1, 1, 1, 1, 1, 1, 1];
