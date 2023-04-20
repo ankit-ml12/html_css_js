@@ -37,7 +37,7 @@ let time = setTimeout(
 
 if (arr.includes("mob1")) clearTimeout(time);
 
-// if we want to call a functin after every one sec
+// if we want to call a function after every one sec
 //we use setInterval
 
 setInterval(() => {
