@@ -1,5 +1,5 @@
 let diameter = 200000000;
-//it is difficult toread so to put comma we use seprator
+//it is difficult to read so to put comma we use seprator
 
 diameter = 200_000_000;
 console.log(diameter); //200000000
@@ -8,7 +8,7 @@ console.log(diameter); //200000000
 //not allowed in string type
 
 //BIGINT
-//use n after number to convert itinto bigInt
+//use n after number to convert it into bigInt
 // or use
 // BigInt
 //all the operator work perfectlly for this Bigint.
