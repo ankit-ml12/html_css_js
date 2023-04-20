@@ -8,7 +8,7 @@ console.log(new Date(2037, 10, 19, 15, 23, 5)); //2037-11-19T09:53:05.000Z
 
 //it also recorrect you time if you pass 31 nov it convert them into 1 dec
 console.log(new Date(0)); //1970-01-01T00:00:00.000Z
-// if you pass large number it add as much sec inthe default time
+// if you pass large number it add as much sec in the default time
 
 const ti = new Date();
 console.log(ti); //2023-01-31T03:18:15.245Z
