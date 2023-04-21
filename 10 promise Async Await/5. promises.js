@@ -34,7 +34,7 @@ const request2 = fetch(url)
 
 //promises do not help in get rid from call back instead they help from get rid from callback hell
 
-//to handell cancell promise
+//to handle cancel promise
 //we use catch statement
 
 //.finally()
