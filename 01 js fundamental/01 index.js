@@ -1,2 +1,2 @@
 alert("hello word");
-//give alert in brwoser
+//give alert in browser
