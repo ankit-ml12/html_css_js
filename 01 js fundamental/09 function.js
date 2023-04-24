@@ -1,4 +1,4 @@
-// function is resuable code that we case use over and over again
+// function is resuable code that we can use over and over again
 
 function logger() {
   console.log('hello ankit')
