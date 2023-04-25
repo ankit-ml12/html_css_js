@@ -14,7 +14,7 @@ const ankit = {
 };
 // address is object and it has 4 property
 // there are many way to create an object but creating with curly breces is the easiest one
-// this methode of creating an object is called
+// this method of creating an object is called
 ("Object literal syntex");
 
 `similar to array we use object to group together different variable that really belongs to together`;
