@@ -12,10 +12,10 @@ console.log(ml.length);
 
 //  ================================================
 ("Basic operations");
-//push methode :- add element at the end and return the size of arr
+//push method :- add element at the end and return the size of arr
 ml.push("ankit");
 
-//unshift methode : add element at the front side and return the size fo arr
+//unshift method : add element at the front side and return the size fo arr
 ml.unshift("first");
 
 //.pop() :- remove element front the end and return the remove elememnt
