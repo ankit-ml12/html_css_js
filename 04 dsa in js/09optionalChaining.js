@@ -20,7 +20,7 @@ if (obj.ujjain && obj.ujjain.makdon) {
 `some time this chainlength become to large when we fetch data from other server `;
 ("so we use optional chianing introduce in ES2020");
 
-//with opetion chain
+//with optional chain
 console.log(obj.ujjain?.makdon?.ghar); //hanuman road
 console.log(obj.indore?.makdon?.ghar); // undefine (with out opetinal chaining it give error)
 
