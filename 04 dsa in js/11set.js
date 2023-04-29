@@ -22,7 +22,7 @@ console.log(orderSet.has(100)); //false
 
 // you can not do like this orderSet[0] it is wrong
 
-("to delete whole set use .clear() methode");
+("to delete whole set use .clear() method");
 orderSet.clear();
 console.log(orderSet.size); //0
 
