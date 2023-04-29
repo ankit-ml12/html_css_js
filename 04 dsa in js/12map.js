@@ -20,9 +20,9 @@ console.log(myMap.has("name")); //true
 console.log(myMap.has("phone")); //true
 console.log(myMap.has("pho")); //false
 
-("to delete we use .delete() methode");
+("to delete we use .delete() method");
 ("to find size we use myMap.size with parenthesis");
-("to clear whole map we use .clear() methode");
+("to clear whole map we use .clear() method");
 myMap.clear();
 // can we use obj or array as a key
 //not like this way
