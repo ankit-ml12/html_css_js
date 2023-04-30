@@ -25,7 +25,7 @@ console.log(airline.indexOf("Asi")); //10
 
 console.log(airline.slice(4)); //India Asia
 
-//similar to staring index we can also able to pass the ending index
+//similar to starting index we can also able to pass the ending index
 //when you pass ending index it slice the string till endindex-1;
 console.log(airline.slice(4, 8)); //Indi    (8 is not included)
 console.log(airline.slice(4, 4)); // ""
