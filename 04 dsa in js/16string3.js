@@ -1,6 +1,6 @@
 const str = "ad+kf+dfc+dgd+cds+csd+dfd";
 
-`.split() methode split the string by give value provide inside it `;
+`.split() method split the string by give value provide inside it `;
 
 const ml = str.split("+");
 console.log(ml);
