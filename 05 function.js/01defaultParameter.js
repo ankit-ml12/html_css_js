@@ -2,7 +2,7 @@
 
 const bookings = [];
 const creatBooking = function (
-  //here we can intilise parameter with default value so if useer will not send
+  //here we can intilise parameter with default value so if user will not send
   //default value is assign to them
   flightName,
   numPasanger = 1,
