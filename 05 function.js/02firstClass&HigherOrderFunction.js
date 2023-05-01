@@ -8,7 +8,7 @@ Node = "Since object are value so function are vlaue to ";
 `because of this reason we can store them in some parameter or value `;
 ("we can pass them as a argument in another function");
 ("return them from any function");
-("call methode on any function "); // it have different methode
+("call methode on any function "); // it have different method
 
 //Higher order function
 
@@ -18,7 +18,7 @@ Node = "Since object are value so function are vlaue to ";
 ("this is possible because of the first class function ");
 
 //note
-//we can call functin like this ()()
+//we can call function like this ()()
 
 let ankit = function () {
   return function (a, b) {
@@ -27,4 +27,4 @@ let ankit = function () {
 };
 console.log(ankit()(15, 24));
 
-//learn next lecture letter of hgiher ordere and local function related to callback
+//learn next lecture letter of higher order and local function related to callback
