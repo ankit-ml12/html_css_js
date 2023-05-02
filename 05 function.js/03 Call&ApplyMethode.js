@@ -26,7 +26,7 @@ temp("crio", "datotar");
 // how to tell program we want to use temp function for ml or ml2 function
 //by using call and apply methode
 
-//call methode
+//call method
 temp.call(ml2, "crio", "datotar");
 // my name is ravi && age is 27 && working in crio in datotar
 //first argument is function name and remaining is the passing argument
@@ -34,13 +34,13 @@ temp.call(ml2, "crio", "datotar");
 temp.call(ml, "self", "indore");
 // my name is anktit && age is 24 && working in self in indore
 
-//apply methode
+//apply method
 // work similar to call methode the only difference is we pass argument inside array
 
 temp.apply(ml, ["google", "ujjain"]);
 // my name is anktit && age is 24 && working in google in ujjain
 
-//Bind methode
+//Bind method
 //instead of using apply or call methode we can bind this keyword with perticular then we don't need to pass obj name everytime
 
 const mlintro = temp.bind(ml);
@@ -55,6 +55,6 @@ ml2intro("amazon", "hyderabad");
 const mlintro_google = temp.bind(ml, "google");
 mlintro_google("indore");
 //  my name is anktit && age is 24 && working in Uber in indore
-// here first term come from bind methode
+// here first term come from bind method
 
 //read more letter
