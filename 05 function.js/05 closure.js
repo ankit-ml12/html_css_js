@@ -7,7 +7,7 @@ let closure = `closure makes a function remeber all variable that existed at the
 
 ("we can not access closure because it is not function or property but its internal thing of js");
 
-//condtion of closure
+//condition of closure
 // 1. similar ex of nameste js (when you return function )
 // 2. when you assign function to some variable
 
