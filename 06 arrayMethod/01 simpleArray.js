@@ -6,7 +6,7 @@ const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 //2. Splice method
 
 //it modified the actual array
-//in simple word return the same thing that slice methode do
+//in simple word return the same thing that slice method do
 // but remaining part is left in the array
 
 const ml = movements.splice(3, 2);
