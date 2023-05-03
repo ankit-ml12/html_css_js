@@ -2,7 +2,7 @@
 // we simply use string listeral first to create an html element
 //ans then use
 insertAdjacentHTML(position, text);
-//methode
+//method
 //where positin are
 "beforebegin", "afterbegin", "beforeend", "afterend";
 
