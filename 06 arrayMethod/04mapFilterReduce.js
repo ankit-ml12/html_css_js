@@ -21,8 +21,8 @@ let ans2 = arr.map((ele) => 5 * ele);
 console.log(ans2); //[ 50, 100, 150, 125, 75, 25 ]
 // map also have access of three element element index and wholearray
 
-//forEach methode allway return undefine
-//while map methode return the new arr with applied operation
+//forEach method allway return undefine
+//while map method return the new arr with applied operation
 
 let ans3 = arr.filter(function (ele) {
   if (ele % 2 == 1) return ele;
@@ -30,7 +30,7 @@ let ans3 = arr.filter(function (ele) {
 
 console.log(ans3); //[ 25, 15, 5 ]
 // also have access of three element
-// can use arrow methode
+// can use arrow method
 
 //reduce
 // it is different
