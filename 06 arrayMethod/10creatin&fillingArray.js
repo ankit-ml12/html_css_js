@@ -16,7 +16,7 @@ console.log(arr3); //[ <2 empty items>, 2, 2, 2, 2, 2 ]
 arr4.fill(2, 2, 5);
 console.log(arr4); //[ <2 empty items>, 2, 2, 2, <2 empty items> ]
 
-// fill methode can be applicable on normal array
+// fill method can be applicable on normal array
 
 //anothe from method
 
