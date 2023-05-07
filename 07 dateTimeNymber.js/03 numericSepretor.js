@@ -16,4 +16,4 @@ console.log(diameter); //200000000
 //you can only do calculation between bigint and bigint not woth other type
 // but we can do comparison between bigint and int
 
-//when you divide bigint bigint it remove the decimal part
+//when you divide bigint it remove the decimal part
